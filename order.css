@@ -1,0 +1,153 @@
+body {
+    background-image: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    width: 450px;
+    height: 700px;
+    margin: 100px 495px 100px 495px;
+
+}
+
+.title {
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    color:hsl(223, 47%, 23%);
+    font-size: 27px;
+    margin-top: 45px;
+}
+
+.order {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.banniere {
+    border-radius: 20px 20px 0px 0px;
+     
+}
+
+.description {
+    font-family: 'Red Hat Display';
+    width: 300px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0px;
+    line-height: 25px;
+    
+
+}
+
+.groupe {
+    
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 350px;
+    height: 100px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 5px;
+    
+}
+.groupe img {
+
+    margin-top: 25px;
+    padding-left: 25px;
+
+}
+.groupe .info {
+
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.plan {
+
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+
+}
+.price {
+
+    font-family: 'Red Hat Display';
+    color:hsl(224, 23%, 55%);
+
+}
+
+.groupe a {
+
+    
+    margin-left: 90px;
+    padding-top: 35px;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    font-size: 14px;
+    color:hsl(245, 75%, 52%);
+
+}
+.groupe a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+.validation {
+    list-style-type: none;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    
+}
+
+.validation a {
+    text-decoration: none;
+}
+.proceed {
+    
+    width: 350px;
+    height: 35px;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: -40px;
+    background-color: hsl(245, 75%, 52%);
+    padding-top: 15px;
+    box-shadow: 0px  15px 50px hsl(224, 23%, 55%);
+    margin-top: 30px;
+    
+}
+.proceed a {
+    color: white;
+    padding-bottom: 0px;
+}
+.proceed:hover {
+    opacity: 0.7;
+}
+.cancel {
+    
+    margin-top: 35px;
+    margin-left: -40px;
+    margin-bottom: 45px;
+    
+    
+}
+.cancel a {
+
+    color:hsl(224, 23%, 55%);
+}
+.cancel a:hover{
+    color: black;
+}
+
+.attribution {
+    font-family: 'Red Hat Display';
+    padding-top: 10px;
+}
+.attribution a {
+    font-weight: bold;
+}
